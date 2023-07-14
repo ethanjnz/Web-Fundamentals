@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- main Navbar for page -->
+    <div class="navbar">
+        <div class="nav-links">
+            <ul>
+                <li><a href="#"><span>Profile</span></a></li>
+                <li class="fixedli"><a href="#">Home</a></li>
+                <li class="fixedli"><a href="#">My Profile</a></li>
+                <li class="fixedli"><a href="#">Find Connections</a></li>
+            </ul>
+            <button>Sign Out</button>
+        </div>
+    </div>
+    <!-- first is setting size for entire container -->
+    <!-- this is start of first col -->
+    <div class="container">
+        <div class="pagecontainer">
+
+            <div class="col-1">
+                <div class="profile">
+                    <!-- this is previous project of profile -->
+                    <div id="prohead">
+
+                        <img src="icons\user-circle.png" alt="Profile Pic">
+                    </div>
+                    <div class="info">
+                        <h1>Jane Doe</h1>
+
+
+                        <h3 id="map-marker"><img src="icons\map-marker.png" alt="Location">Seattle</h3>
+
+                        <div class="bio">
+
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet</p>
+                        </div>
+                        <div class="setting">
+                            <img class="icon" id="icon" src="icons\gear.png" alt="">
+                            <a href="#">edit profile</a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- second block is Education -->
+                <!-- education header is first -->
+                <div class="education">
+                    <div class="header">
+                        <h2>Education</h2>
+                    </div>
+                    <!-- second block of education -->
+                    <div class="ed-second-block">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                        <div class="date">
+                            <h3>Dec 2019 - Mar 2020</h3>
+                        </div>
+                        <P>Triple black belt in Python, MERN, and c#...</P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <!-- Connection requests on right -->
+                <!-- first block is header -->
+                <div class="recieved-requests">
+                    <div class="col-2-headers">
+                        <p><span id="circle">2</span></p>
+                        <h2>Connection Requests</h2>
+                    </div>
+                    <!-- second block is actual requests -->
+                    <div class="persons-requests">
+                        <div class="first-req">
+                            <div class="hum-side">
+                                <img src="images/todd-s.jpg" alt="Todd E">
+                                <h3>Todd E</h3>
+                            </div>
+                            <div class="click-side">
+                                <img src="icons/accept-circle.png" alt="Checkmark">
+                                <img src="icons/close-circle.png" alt="Denied">
+                            </div>
+
+                        </div>
+                        <div class="sec-req">
+                            <div class="hum-side">
+                                <img src="images/phil-s.jpg" alt="Phil K">
+                                <h3>Phil K</h3>
+                            </div>
+                            <div class="click-side">
+                                <img src="icons/accept-circle.png" alt="Checkmark">
+                                <img src="icons/close-circle.png" alt="Denied">
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Your Connections tab block -->
+                <!-- first block is header -->
+                <div class="followers-cont">
+                    <div class="col-2-headers">
+                        <p><span id="circle">500+</span></p>
+                        <h2>Your Connections</h2>
+                    </div>
+                    <!-- second block is actual followers -->
+                    <div class="followers-container">
+                        <div class="followers">
+                            <img src="images/adrien-s.jpg" alt="Adrien-D">
+                            <h3>Adrien-D</h3>
+                        </div>
+                        <div class="followers">
+                            <img src="images/anne-s.jpg" alt="Anne J">
+                            <h3>Anne J</h3>
+                        </div>
+                        <div class="followers">
+                            <img src="images/alayne-s.jpg" alt="Alayne T">
+                            <h3>Alayne T</h3>
+                        </div>
+                        <div class="followers">
+                            <img src="images/arry-s.jpg" alt="Arry Y">
+                            <h3>Arry Y</h3>
+                        </div>
+                        <!-- view more tag at bottom -->
+                        <div id="view-more">
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
